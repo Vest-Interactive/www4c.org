@@ -187,6 +187,15 @@ img.grid_2 {
   font-size: 0.75em;
 }
 
+span.marker {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  height: 2em;
+}
+span.marker.short {height: 1em;}
+span.marker.tall {height: 4em;}
+
 .indicates-required {
   font: normal 300 10px/12px 'Muli', Verdana, Arial, sans-serif;
   text-align: right;
